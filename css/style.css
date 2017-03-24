@@ -59,7 +59,7 @@ img{
 ul{
 	list-style-type: none;
 }
-header{
+.home-page{
 	background-image: url(../img/home-header-bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -145,11 +145,14 @@ h4{
 	border: 1px solid #60606e;
 }
 /*HEADER*/
+.header_main{
+	margin-top: 130px;
+}
 .header_main h3{
 	background-color: #7beec7;
 	text-align: center;
 	width: 100px;
-	margin: 110px auto 0;
+	margin: 0 auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -159,13 +162,15 @@ h4{
 	margin: 30px auto;
 	max-width: 560px;
 }
+.header_desc{
+	margin-top: 70px;
+	}
 .header_desc h2{
 	text-align: left;
-	margin: 80px auto 0;
+	margin: 20px auto;
 }
 .header_desc img{
 	margin: 0 auto;
-	display: block;
 }
 .header_desc p{
 	line-height: 30px;
@@ -174,12 +179,16 @@ h4{
 .header_desc .btn{
 	float: right;
 }
+
 /*SECTIONS*/
+.s_why,
+.s_portfolio{
+	margin: 150px auto 40px;
+}
 .s_why h2,
 .s_portfolio h2{
 	text-align: center;
-	margin: 150px auto 0;
-	display: block;
+	margin: auto;
 }
 .s_why h2{
 	width: 270px;
@@ -234,6 +243,7 @@ h4{
 	background-color: #7beec7;
 	height: auto;
 	min-height: 330px;
+	margin-top: 130px;
 }
 .newsletter h2{
 	color: #fff;
@@ -331,6 +341,40 @@ footer .socials ul li{
 footer .socials{
 	float: right;
 }
+/*PAGE ABOUT*/
+.about-page{
+	background-image: url(../img/about-header-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  	-moz-background-size: cover;  
+  	-o-background-size: cover; 
+  	-webkit-background-size: cover; 
+  	background-position: center;
+  	min-height: 500px;
+}
+.about-header-main h1{
+	font-size: 36px;
+	border: none;
+	margin-top: 160px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.breadcrumb{
+	background-color: transparent;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 48px;
+	margin-top: 0;
+}
+.breadcrumb li,
+.breadcrumb li a{
+	color: #60606e;
+}
+
+
+
 
 
 
